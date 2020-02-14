@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import React from 'react'
+import React, {Component} from 'react'
 
 class PlayerNew extends React.Component {
   constructor () {
@@ -58,3 +58,13 @@ class PlayerNew extends React.Component {
 }
 
 export default PlayerNew
+
+
+
+
+
+
+
+
+
+(showCompleted&&!t.completed?'d-none':'')
